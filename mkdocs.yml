@@ -1,32 +1,50 @@
-site_name: My MkDocs Material Documentation
-site_url: https://sitename.example
+site_name: Sistema de Gestão
+site_url: https://google.com
 theme:
+  language: pt-BR
   name: material
   features:
     - navigation.footer
-
   palette:
     # Dark Mode
     - scheme: slate
       toggle:
         icon: material/weather-sunny
         name: Dark mode
-      primary: yellow
-      accent: red
+      primary: black
+      accent: pink
 
     # Light Mode
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Light mode
-      primary: green
-      accent: deep purple
+      primary: white
+      accent: green
+nav:
+  - Home: index.md
+  - Guide:
+      - “Getting Started”: diagrams.md
+      - “Advanced Topics”: content-tabs.md
+  - API Reference: code.md
+  - Changelog: Q&A.md
 
 copyright: Copyright &copy; 2025 Mateus Loubach
-
+extra:
+  generator: false
+  social:
+    - icon: simple/github
+      link: https://github.com/mateusloubach
+    - icon: fontawesome/solid/globe
+      link: https://mateusloubach.vercel.app/
+extra_css:
+  - stylesheets/extra.css
 # Code For Allowing Icons
 markdown_extensions:
   - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
