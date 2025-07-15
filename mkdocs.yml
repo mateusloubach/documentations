@@ -1,5 +1,4 @@
 site_name: Sistema de Gestão
-site_url: https://google.com
 theme:
   language: pt-BR
   name: material
@@ -23,11 +22,11 @@ theme:
       accent: green
 nav:
   - Home: index.md
-  - Guide:
-      - “Getting Started”: diagrams.md
-      - “Advanced Topics”: content-tabs.md
-  - API Reference: code.md
-  - Changelog: Q&A.md
+  - Getting Started: start.md
+  - Structure:
+    - “Users”: diagrams.md
+    - “Patients”: content-tabs.md
+  - API Reference: Q&A.md
 
 copyright: Copyright &copy; 2025 Mateus Loubach
 extra:
@@ -39,6 +38,8 @@ extra:
       link: https://mateusloubach.vercel.app/
 extra_css:
   - stylesheets/extra.css
+
+
 # Code For Allowing Icons
 markdown_extensions:
   - attr_list

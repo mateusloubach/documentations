@@ -2,7 +2,7 @@
 
 !!! example inline start "Aviso Importante"
 
-    Este é um "template" para formular melhor a ideia de um sistema de gestão odontológica.
+    Este documento fornece um guia completo para integração com a API RESTful da plataforma Dental Office, abrangendo autenticação, recursos disponíveis, fluxos de trabalho de exemplo, estruturas de dados e até mesmo os componentes de interface do usuário usados em nossos documentos.
 
 ## O que é?
 
